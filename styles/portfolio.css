@@ -1,8 +1,6 @@
-
-
 /* Font Import */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* Font Initialization */
 
@@ -11,123 +9,125 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
-
 
 /* Shared style */
-.secondary-bg{
-    background-color: #FFF8F3;
+.secondary-bg {
+  background-color: #fff8f3;
 }
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
-.btn-primary{
-    background-color: #FD6E0A;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 18px 35px;
-   
+.btn-primary {
+  background-color: #fd6e0a;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 18px 35px;
 }
-.dark-2{
-    color: #474747;
+.dark-2 {
+  color: #474747;
 }
-.section-title{
-    font-weight: bold;
-    font-size: 35px;
-    color: #181818;
-
+.section-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
 }
-.section-description{
-    font-size: 18px;
-    color: #757575;
+.section-description {
+  font-size: 18px;
+  color: #757575;
 }
 /* Header Styles */
 
-.header{
-    background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
+.header {
+  background-image:
+    url("../images/developer.png"), url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position:
+    top left,
+    bottom right;
 }
 /* Nav Styles */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 
-
-
-.nav-title{
-    font-weight: 800;
-    font-size: 45px;
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
 }
 
 /* this or below another one same kaj kore ul ar vitore li thakle amra direct ul na likhe li likhe changes korte pari  */
 nav ul {
-    display: flex;
-     align-items: center;
+  display: flex;
+  align-items: center;
 }
-    
 
-nav ul li{
-    list-style: none;
-        margin-right: 50px;
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
 }
-   
+
 nav li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* banner greetings */
-.banner{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 35px 0 200px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
 }
-.banner-content{
-    max-width: 580px;
+.banner-content {
+  max-width: 580px;
 }
-.banner-greetings{
-    font-size: 45px;
-    font-weight: 600;
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
 }
-.banner-title{
-    font-size: 85px;
-    font-weight: bold;
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
 }
-.banner-profile-pic{
-    width: 584px;
+.banner-profile-pic {
+  width: 584px;
+}
+.contact-btn {
+  margin-left: 30px;
 }
 
 /* Main Style */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* About Section Style */
-.about{
-    border-radius: 10px;
-    padding: 130px 155px;
-    text-align: center;
-    margin-top: 130px;
-
+.about {
+  border-radius: 10px;
+  padding: 130px 155px;
+  text-align: center;
+  margin-top: 130px;
 }
-.about-items{
-    display: flex;
-    justify-content: space-evenly;
+.about-section-content {
+  background-color: white;
+  padding: 15px;
+  border: #181818 solid 1px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.item-title{
-    font-size: 20;
-
+.item-title {
+  font-size: 20;
 }
-.item-description{
-    font-weight: bold;
-    font-size: 20px;
+.item-description {
+  font-weight: bold;
+  font-size: 20px;
 }
