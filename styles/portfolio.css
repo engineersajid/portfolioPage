@@ -20,11 +20,36 @@
 .text-primary{
     color: #FD6E0A;
 }
+.btn-primary{
+    background-color: #FD6E0A;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 18px 35px;
+   
+}
+.dark-2{
+    color: #474747;
+}
 
+/* Header Styles */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    ;
+}
 /* Nav Styles */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
+
 
 
 .nav-title{
@@ -32,3 +57,39 @@ nav{
     font-size: 45px;
 }
 
+/* this or below another one same kaj kore ul ar vitore li thakle amra direct ul na likhe li likhe changes korte pari  */
+nav ul {
+    display: flex;
+     align-items: center;
+}
+    
+
+nav ul li{
+    list-style: none;
+        margin-right: 50px;
+}
+   
+nav li a {
+    text-decoration: none;
+}
+
+/* banner greetings */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner-profile-pic{
+    width: 584px;
+}
