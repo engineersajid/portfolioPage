@@ -49,10 +49,9 @@
 /* Header Styles */
 
 .header{
-    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-image: url('images/developer.png'), url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    ;
 }
 /* Nav Styles */
 nav{
@@ -126,7 +125,7 @@ main{
 
 .item-title{
     font-size: 20;
-    
+
 }
 .item-description{
     font-weight: bold;
